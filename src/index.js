@@ -6,10 +6,16 @@ import * as serviceWorker from './serviceWorker';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <App/>
   </React.StrictMode>,
+
+  // <script>
+  //   var randomColor = Math.floor(Math.random()*16777215).toString(16);
+  //   document.body.style.backgroundColor = "#"+randomColor;
+  //   </script>,
   document.getElementById('root')
 );
+
 
 // If you want your app to work offline and load faster, you can change
 // unregister() to register() below. Note this comes with some pitfalls.
